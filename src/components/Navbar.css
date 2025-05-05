@@ -1,0 +1,46 @@
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-title h1{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    color:#1e3a8a;
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-shadow: 0 0 2px #0ff, 0 0 4px #0ff;
+  }
+  
+  .logo {
+    color: #1e3a8a;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #1e40af;
+  }
+  

@@ -1,0 +1,83 @@
+.alerts-container {
+    padding: 40px;
+    background-color:powderblue;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .alerts-container h2 {
+    font-size: 26px;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .alert-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .alert-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    width: 500px;
+    position: relative;
+  }
+  
+  .alert-card h4 {
+    margin: 0;
+    color: #0f172a;
+  }
+  
+  .alert-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #374151;
+  }
+  
+  .price-info {
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .old {
+    text-decoration: line-through;
+    color: #9ca3af;
+  }
+  
+  .new {
+    color: #10b981;
+    font-weight: bold;
+  }
+  
+  .tag {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #f59e0b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .tag.price-drop {
+    background-color: #ef4444;
+  }
+  
+  .tag.limited-deal {
+    background-color: #3b82f6;
+  }
+  
+  .tag.offer {
+    background-color: #10b981;
+  }
+  

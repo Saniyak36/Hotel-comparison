@@ -1,0 +1,44 @@
+.trends-container {
+  background-color:powderblue;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.trends-content {
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 30px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 1100px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.trends-content h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.chart-box {
+  margin-bottom: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.chart-box h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #1e40af;
+}
+
+.chart-box canvas {
+  max-height: 350px;
+}
